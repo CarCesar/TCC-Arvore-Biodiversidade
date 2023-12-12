@@ -1,0 +1,70 @@
+.icon-bar {
+    background-color: rgb(200, 220, 255); 
+    height: 100%;
+    width: 8%;
+    min-width: 80px ;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+.tablink {
+    text-align: center; 
+    transition: all 0.3s ease; 
+    color: #000; 
+    font-size: 36px; 
+    padding: 10px;
+    text-decoration: none;
+    font-size: 12px;
+    display: block;
+  }
+
+.tablink:hover {
+    background-color: #68F; 
+}
+
+body {
+    font-family: monospace;
+    color: #000
+
+}
+   
+#main {
+    margin-left: 8%; 
+    font-size: 28px; 
+    padding: 0px 10px;
+}
+
+.tela{
+    text-align: center;
+    justify-content: middle;
+    display: none;
+}
+  
+
+.leg{
+    font-size: small;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: rgb(180, 200, 255);
+}
+
+.se{
+  text-align: center;
+  padding: 1vh;
+}
+
+#github:hover{
+  text-decoration: underline;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
