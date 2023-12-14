@@ -19,6 +19,7 @@
       <script src="site/js/script.js" defer></script>
       <script src="site/js/raposas.js" defer></script>
       <script src="site/js/sudeste.js" defer></script>
+      <script src="site/js/aves.js" defer></script>
 </head>
 <body>
     <div class="icon-bar">
@@ -37,10 +38,10 @@
         <div class="leg">
             Árvore Taxonômica:
         </div>
-        <!--a class="tablink" onclick="openPage('Aves', this, 'red')">
+        <a class="tablink" onclick="openPage('Aves', this, 'red')">
             <img width="30" height="30" src="https://img.icons8.com/ios-filled/50/000011/top-view-bird.png" />
             <div>AVES</div>
-        </a-->
+        </a>
         <a class="tablink" id="defaultOpen" onclick="openPage('Raposas', this, 'red')">
             <img width="30" height="30" src="https://img.icons8.com/external-icongeek26-glyph-icongeek26/64/external-fox-animal-body-icongeek26-glyph-icongeek26.png" alt="external-fox-animal-body-icongeek26-glyph-icongeek26"/>
             <div>RAPOSAS</div>
@@ -70,7 +71,7 @@
     </div>
     
     <div class="tela", id="Aves">
-        <iframe src="raposas.html"></iframe>    
+        <div id="aves_vis"></div>   
     </div>
 
     <div class="tela", id="Sudeste">
